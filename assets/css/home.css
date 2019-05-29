@@ -1,0 +1,38 @@
+header {
+	height:100%;
+}
+nav {
+	top:50%;
+}
+.title,nav {
+	font-size:1.2em;
+	text-align:center;
+}
+.title img {
+	width:150px;
+} 
+.title .theme{
+	font-size:1em;
+}
+section {
+	top:82.5%;
+	
+}
+
+@media screen and (max-width: 1200px) {
+	.title {
+    	margin-top:40px;
+       font-size:2em;
+       
+    }
+    .title img{
+   	width:128px!important;
+   	display:block;
+   	margin:auto;
+   }
+   .title .theme{
+   	font-size:0.3em;
+   	margin-top:100px;
+   	line-height: 10;
+   }
+}
